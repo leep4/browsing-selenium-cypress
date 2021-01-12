@@ -1,5 +1,9 @@
-# browsing-selenium-cypress
+#Running Cypress
+* open _cyp\cypress\integration\google.spec.js_
+  * change value of _SRCH_STR_ to desired search item
+* from root folder, cd into cyp
+  * type _npx cypress open_
+  * click on _google.spec.js_
 
-To run Cypress, from root folder cd into _cyp_, type _npx cypress open_, then click on _google.spec.js_
-
-Run Pylenium by typing _python -m pytest pyl/tests/test_search.py -s_ from command line in root folder
+#Running Pylenium
+* from command line in root folder, type _python -m pytest pyl/tests/test_search.py -s_

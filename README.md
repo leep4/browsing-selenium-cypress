@@ -6,4 +6,5 @@
   * click on _google.spec.js_
 
 # Running Pylenium
+* Headless browsing is currently enabled. To disable, open _pyl\pylenium.json_ and remove "headless" from options.
 * from command line in root folder, type _python -m pytest pyl/tests/test_search.py -s_

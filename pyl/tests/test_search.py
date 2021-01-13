@@ -9,6 +9,6 @@ def test_search(py):
     results = py.findx('//div[contains(@class, "yuRUbf")]')
     results_list = [['Name', 'URL']]
     for site in results:
-        results_list.append([site.find('span').first().get_property('innerHTML'), site.find('a').first().get_property('href')])
+        results_list.append([site.find('span').first().get_property('innerHTML'), site.find('a').first().get_attribute('href')])
 
     print_list(results_list)
